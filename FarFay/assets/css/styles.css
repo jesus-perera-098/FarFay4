@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container-fluid form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}   
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;;
+}
+
+footer p{
+    color:#fff;
+    text-align:center;
+}
+
+.custom-btn {
+    color: #000000; /* Color del texto */
+    font-weight: 600;
+    font-size: 15px;
+    border-color: #77c5cc; /* Color del borde */
+    border-radius: 99px;
+    background-color: #77c5cc; /* Color de fondo transparente */
+}
+
+.custom-btn:hover {
+    color: #000000; /* Cambia el color del texto al pasar el mouse */
+    background-color: #65a6ac; /* Cambia el color de fondo al pasar el mouse */
+    border-color: #65a6ac
+}
+
+.custom-btn2 {
+    color: #ffffff; /* Color del texto */
+    font-weight: 600;
+    font-size: 15px;
+    border-color: #238088; /* Color del borde */
+    border-radius: 99px;
+    background-color: #238088; /* Color de fondo transparente */
+}
+
+.custom-btn2:hover {
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+    background-color: #1a6066; /* Cambia el color de fondo al pasar el mouse */
+    border-color: #1a6066
+}
+
+.social-icon {
+    width: 30px; /* Ajusta el ancho del icono según sea necesario */
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+}
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+
+.w-100 form button{
+ background: pink;
+}
+
